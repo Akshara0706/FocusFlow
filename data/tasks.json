@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "task": "Complete DBMS Assignment",
+    "priority": "High",
+    "status": "Pending"
+  },
+  {
+    "id": 2,
+    "task": "Practice SQL Queries",
+    "priority": "Medium",
+    "status": "Completed"
+  },
+  {
+    "id": 3,
+    "task": "Prepare Compiler Notes",
+    "priority": "High",
+    "status": "Pending"
+  },
+  {
+    "id": 4,
+    "task": "Prepare for Placement Test",
+    "priority": "High",
+    "status": "Pending"
+  },
+  {
+    "id": 5,
+    "task": "Revise AI Unit 3",
+    "priority": "Medium",
+    "status": "Completed"
+  }
+]
