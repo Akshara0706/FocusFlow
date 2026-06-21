@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Tasks</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <h2>⚡ FocusFlow</h2>
+
+        <ul>
+            <li><a href="/">Dashboard</a></li>
+            <li><a href="/tasks">Tasks</a></li>
+            <li><a href="/habits">Habits</a></li>
+            <li><a href="/analytics">Analytics</a></li>
+            <li><a href="/notes">Notes</a></li>
+        </ul>
+
+    </aside>
+
+    <main class="main">
+
+        <h1>Task Manager</h1>
+
+        <table>
+
+            <tr>
+                <th>ID</th>
+                <th>Task</th>
+                <th>Priority</th>
+                <th>Status</th>
+            </tr>
+
+            <% tasks.forEach(task => { %>
+
+            <tr>
+                <td><%= task.id %></td>
+                <td><%= task.task %></td>
+                <td><%= task.priority %></td>
+                <td><%= task.status %></td>
+            </tr>
+
+            <% }) %>
+
+        </table>
+
+    </main>
+
+</div>
+
+</body>
+</html>
